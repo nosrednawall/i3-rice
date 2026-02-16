@@ -1,5 +1,6 @@
 !#/bin/bash
-xset r rate 200 35 &
+setxkbmap -model pc105 -layout "br" -variant "abnt2"
+# xset r rate 200 35 &
 xrandr -s 1920x1080 &
 feh --bg-fill ~/.config/i3/wallpaper/wallpaper1.catppuccin-mocha.jpg
 picom --config ~/.config/i3/picom/picom.conf &

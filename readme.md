@@ -8,8 +8,6 @@ Bem-vindo a minha configuração do i3 no ArchLinux.
     Instalação Passo a Passo
     Arquitetura de Configuração
     Dicionário de Teclas de Atalho (Keybindings)
-    Personalização Visual e Comportamental
-    Resolução de Problemas
 
 📦 Pacotes sendo usados
 Os pacotes abaixo serão instalados com o script **install.sh**
