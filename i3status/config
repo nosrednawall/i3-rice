@@ -10,6 +10,7 @@ order += "cpu_usage"
 order += "memory"
 order += "disk /"
 order += "battery all"
+order += "volume master"
 order += "tztime local"
 
 # CPU - Adicionado símbolo e limitador de casas decimais
@@ -46,4 +47,12 @@ battery all {
 # HORA - Corrigido (você tinha duas linhas 'format', a segunda sobrescrevia a primeira)
 tztime local {
     format = " %d/%m  󰥔 %H:%M "
+}
+
+volume master {
+        format = "󰕾: %volume"
+        format_muted = "󰖁: muted (%volume)"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
 }
