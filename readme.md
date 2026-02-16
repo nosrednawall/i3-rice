@@ -76,4 +76,7 @@ Controle do Sistema
     Mod + Shift + Q: Sai do i3 (Logoff).
     Mod + L: Bloqueia a tela (i3lock).
 
-
+Prints
+![Texto Alternativo](prints/2026-02-16_10-09_1.png)
+![Texto Alternativo](prints/2026-02-16_10-09.png)
+![Texto Alternativo](prints/2026-02-16_10-12.png)
