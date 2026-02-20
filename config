@@ -56,6 +56,7 @@ bindsym $mod+Shift+Return exec kitty -c ~/.config/i3/kitty/kitty.conf
 # my applications
 bindsym $mod+f exec thunar
 bindsym $mod+e exec emacsclient -c -a 'emacs'
+bindsym $mod+Control+r exec ~/.config/i3/scripts/dwm-redshift.sh
 
 # Print
 bindsym $mod+Print exec flameshot  gui -p $HOME/Imagens/Screenshoots/ -c
